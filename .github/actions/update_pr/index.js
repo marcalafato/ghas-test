@@ -35,7 +35,7 @@ async function run() {
             let prefix = "";
             if (files.some(file => file.filename.includes("frontend"))) {
                 prefix = "(Web - FE) ";
-            } else if (files.some(file => file.filename.includes("backend"))) {
+            } else if (files.some(file => file.filename.includes("legacy_server"))) {
                 prefix = "(Web - BE) ";
             }
 
